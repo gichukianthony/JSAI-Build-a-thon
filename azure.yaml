@@ -17,3 +17,10 @@ services:
                 posix:
                     shell: sh
                     run: npm run build
+            # postdeploy:
+            #     windows:
+            #         shell: pwsh
+            #         run: npm run start
+            #     posix:
+            #         shell: sh
+            #         run: npm run start
