@@ -10,12 +10,13 @@
     "build": "tsc --build",
     "start:sse": "node ./lib/src/index.js sse",
     "start:sdtio": "node ./lib/src/index.js stdio"
-},
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0",
     "express": "^4.21.2",
+    "node_os_mcp": "link:",
     "zod": "^3.24.2"
   },
   "devDependencies": {
